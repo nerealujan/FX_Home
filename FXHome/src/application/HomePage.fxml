@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane prefHeight="680.0" prefWidth="1335.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <AnchorPane layoutX="47.0" prefHeight="54.0" prefWidth="1335.0" style="-fx-background-color: #8A0311;">
+         <children>
+            <ImageView fx:id="drawerImage" fitHeight="28.0" fitWidth="34.0" layoutX="43.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Hamburger_icon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane1" layoutX="7.0" layoutY="54.0" prefHeight="310.0" prefWidth="1335.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="54.0" />
+      <AnchorPane fx:id="pane2" layoutX="10.0" layoutY="64.0" prefHeight="310.0" prefWidth="1335.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="54.0" />
+      <AnchorPane fx:id="pane3" layoutX="10.0" layoutY="64.0" prefHeight="310.0" prefWidth="1335.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="54.0" />
+      <AnchorPane fx:id="pane4" layoutX="10.0" layoutY="64.0" prefHeight="310.0" prefWidth="1335.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="54.0" />
+      <GridPane layoutX="109.0" layoutY="211.0" opacity="0.76" prefHeight="469.0" prefWidth="721.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="260.0" AnchorPane.rightAnchor="260.0" AnchorPane.topAnchor="211.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <JFXButton id="homeBTNS" prefHeight="174.0" prefWidth="289.0" style="-fx-background-color: #8A0311;" text="SECTION 1" textFill="WHITE" />
+            <JFXButton id="homeBTNS" layoutX="10.0" layoutY="10.0" prefHeight="174.0" prefWidth="289.0" style="-fx-background-color: #00475B;" text="SECTION 2" textFill="WHITE" GridPane.columnIndex="1" />
+       
+            <JFXButton id="homeBTNS" layoutX="282.0" layoutY="10.0" prefHeight="174.0" prefWidth="289.0" style="-fx-background-color: #8A0311;" text="SECTION 3" textFill="WHITE" GridPane.columnIndex="2" />
+   
+            <JFXButton id="homeBTNS" layoutX="554.0" layoutY="10.0" prefHeight="174.0" prefWidth="289.0" style="-fx-background-color: #8A0311;" text="SECTION 4" textFill="WHITE" GridPane.rowIndex="1" />
+    
+            <JFXButton id="homeBTNS" layoutX="10.0" layoutY="167.0" prefHeight="174.0" prefWidth="289.0" style="-fx-background-color: #00475B;" text="SECTION 5" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+     
+            <JFXButton id="homeBTNS" layoutX="282.0" layoutY="167.0" prefHeight="174.0" prefWidth="289.0" style="-fx-background-color: #8A0311;" text="SECTION 6" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+   
+            <JFXButton id="homeBTNS" layoutX="282.0" layoutY="167.0" prefHeight="174.0" prefWidth="289.0" style="-fx-background-color: #8A0311;" text="SECTION 7" textFill="WHITE" GridPane.rowIndex="2" />
+
+            <JFXButton id="homeBTNS" layoutX="10.0" layoutY="323.0" prefHeight="174.0" prefWidth="289.0" style="-fx-background-color: #00475B;" text="SECTION 8" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+       
+            <JFXButton id="homeBTNS" layoutX="282.0" layoutY="323.0" prefHeight="174.0" prefWidth="289.0" style="-fx-background-color: #8A0311;" text="SECTION 9" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+
+         </children>
+      </GridPane>
+      <AnchorPane fx:id="opacityPane" layoutX="80.0" layoutY="13.0" prefHeight="28.0" prefWidth="34.0" visible="false" />
+      <AnchorPane fx:id="drawerPane" layoutX="-1.0" layoutY="52.0" prefHeight="624.0" prefWidth="260.0" style="-fx-background-color: #fff;">
+         <children>
+            <GridPane layoutX="30.0" layoutY="20.0" prefHeight="507.0" prefWidth="260.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <JFXButton prefHeight="181.0" prefWidth="326.0" text="Botón 1" />
+                  <JFXButton layoutX="10.0" layoutY="10.0" prefHeight="181.0" prefWidth="326.0" text="Botón 2" GridPane.rowIndex="1" />
+                  <JFXButton layoutX="10.0" layoutY="10.0" prefHeight="181.0" prefWidth="326.0" text="Botón 3" GridPane.rowIndex="2" />
+                  <JFXButton layoutX="10.0" layoutY="10.0" prefHeight="181.0" prefWidth="326.0" text="Botón 4" GridPane.rowIndex="3" />
+                  <JFXButton layoutX="10.0" layoutY="10.0" prefHeight="181.0" prefWidth="326.0" text="Botón 5" GridPane.rowIndex="4" />
+                  <JFXButton layoutX="10.0" layoutY="10.0" prefHeight="181.0" prefWidth="326.0" text="Botón 6" GridPane.rowIndex="5" />
+                  <JFXButton layoutX="10.0" layoutY="10.0" prefHeight="181.0" prefWidth="326.0" text="Botón 7" GridPane.rowIndex="6" />
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+      
+   </children>
+</AnchorPane>
